@@ -1,0 +1,26 @@
+.pageHeader {
+  position: fixed;
+  width: 100%;
+  z-index: 1001;
+  background-color: #ffffff;
+}
+
+.toolbar {
+  background: rgb(125, 95, 76);
+  background: linear-gradient(
+    90deg,
+    rgba(125, 95, 76, 1) 8%,
+    rgba(102, 62, 37, 1) 37%
+  );
+  color: #191817;
+  position: relative;
+  z-index: 101;
+  height: auto;
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.toolbarLogo {
+
+}
