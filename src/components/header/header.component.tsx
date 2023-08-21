@@ -8,11 +8,10 @@ const HeaderComponent = ({ title, links }: HeaderProps) => {
   return (
     <div className={styles.pageHeader}>
       <div className={styles.toolbar}>
-        <div className={styles.toolbarLogo}>
         <a href='/'>
           <img src='/assets/images/logoWebsite.png' className="logoDesktop" alt=""  width="168" height="59"/>  
         </a>
-        </div>
+        
         <PrimarySearchAppBar></PrimarySearchAppBar>
 
         <Box className='' sx={{ flexGrow: 1 }} />

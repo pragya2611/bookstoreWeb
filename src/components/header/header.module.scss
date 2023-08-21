@@ -1,8 +1,13 @@
 .pageHeader {
-  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  z-index: 1001;
-  background-color: #ffffff;
+  flex-wrap: wrap;
+
+  @media(min-width: 1200px) {
+    max-width: 2000px;
+  }
 }
 
 .toolbar {
@@ -19,8 +24,10 @@
   min-height: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 .toolbarLogo {
-
 }
