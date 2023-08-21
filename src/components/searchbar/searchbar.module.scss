@@ -1,0 +1,41 @@
+.searchbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.searchBarWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.searchIconWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10%;
+    margin-left: 200px;
+}
+
+.searchInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+    margin-right: 100px;
+
+    .MuiInputBase-input {
+        width: 100%; 
+    }
+}
